@@ -38,3 +38,14 @@ fn main() {
         println!("{}", i);
     }
 }
+
+// Ok, you see
+/* there actually ARE block comments!
+ * Here they WORK!
+ */
+/// Also special comments used to build the HTML doc
+/// about your not so great crate/package/whatever!
+/// And this comment SHOULD comment some item!
+/// rustc forces it!
+fn do_nothing() {
+}
